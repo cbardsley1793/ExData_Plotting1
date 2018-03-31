@@ -4,9 +4,6 @@
 # Cherie Bardsley
 # 3/29/2018
 
-# Set working directory
-setwd ("/Users/cbardsley/Documents/Exploratory Data Analysis/")
-
 # Read the Electric Power Consumption data from the downloaded household_power_consumption.txt file
 hpc <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", na.strings = "?")
 
